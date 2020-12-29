@@ -12,7 +12,7 @@
   --footer-text-accent: rgba(255, 255, 255, 0.6);
   --primary-icon-fill: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --timing-duration: 2550ms;
+  --timing-duration: 250ms;
 }
 
 body {
