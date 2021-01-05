@@ -1,0 +1,21 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+
+  transition: background-color var(--timing-duration) var(--timing-function);
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
