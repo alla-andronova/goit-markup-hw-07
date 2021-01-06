@@ -7,15 +7,24 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+
   letter-spacing: 0.03em;
   color: var(--black-logo-color);
-}
 
-.logo__accent {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 0.838;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
+  &__accent {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.838;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
+
+  .footer & {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 20px 0;
+
+    color: var(--white-logo-color);
+  }
 }

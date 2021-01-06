@@ -15,19 +15,19 @@
   background-size: cover;
 
   text-align: center;
-}
 
-.hero__title {
-  max-width: 696px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  &__title {
+    max-width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+  }
 }

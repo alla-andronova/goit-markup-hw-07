@@ -14,4 +14,9 @@
   background-color: var(--accent-color);
 
   cursor: pointer;
+
+  .footer & {
+    display: flex;
+    align-items: center;
+  }
 }
